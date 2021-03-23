@@ -4,7 +4,7 @@ Manual commands to issue fan speed commands to dell idrac systems like the R720
 
 
 
-#Enable manual control:
+Enable manual control:
 >
 >ipmitool -I lanplus -H SERVERS_IP_HERE -U IDRAC_USERNAME -P 'IDRAC_PASSWORD_HERE' raw 0x30 0x30 0x01 0x00
 >
